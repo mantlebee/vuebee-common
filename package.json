@@ -1,0 +1,37 @@
+{
+  "name": "vuebee-common",
+  "version": "1.0.0",
+  "description": "Common types, utils and models for Typescript projects",
+  "main": "lib/index.cjs.js",
+  "module": "lib/index.esm.js",
+  "types": "lib/types",
+  "files": [
+    "/lib"
+  ],
+  "scripts": {
+    "build": "rollup -c rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mantlebee/vuebee-common.git"
+  },
+  "keywords": [
+    "vuebee",
+    "typescript",
+    "utils",
+    "common"
+  ],
+  "author": "MantleBee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mantlebee/vuebee-common/issues"
+  },
+  "homepage": "https://github.com/mantlebee/vuebee-common#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "rollup": "^2.60.1",
+    "rollup-plugin-typescript2": "^0.31.1",
+    "typescript": "^4.5.2"
+  }
+}
