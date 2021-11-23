@@ -1,2 +1,3 @@
 # vuebee-common
-Types and utils method for Typescript projects.
+
+Common types, utils and models for Typescript projects.
